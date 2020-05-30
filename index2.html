@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<html>
+<style type="text/css">
+	.btnopen{
+		position: absolute; 
+		left:45%; top:50%; 
+		height: 40px; 
+		display: block; 
+
+
+	}
+	.btn{
+		position: absolute; 
+		left:45%; 
+		top:50%; 
+		height: 40px; 
+		display: block; 
+		background:gray;
+
+	}
+	.back{
+		position: absolute; 
+		left:45%; 
+		top:50%; 
+		height: 40px; 
+		display: block; 
+		background:gray;
+
+	}
+	.btnopenfirst{
+		position: absolute; 
+		left:45%; 
+		top:50%; 
+		height: 40px; 
+		display: block; 
+
+
+	}
+
+	.bgnopen{
+		height: 1250px;
+		display: block;
+		background-size: 100% 100%;
+	}
+	.bg{
+		height: 1250px;
+		display: block;
+		background-size: 100% 100%;
+	}
+	.bgendsport{
+		height: 1250px;
+		display: block;
+		background-size: 100% 100%;
+	}
+	.bgendclass{
+		height: 1250px;
+		display: block;
+		background-size: 100% 100%;
+	}
+	.bgsport{
+		height: 1250px;
+		display: block;
+		background-size: 100% 100%
+	}
+	.bgclass{
+		height: 1250px;
+		display: block;
+		background-size: 100% 100%
+	}
+	.bgtoilet{
+		height: 1250px;
+		display: block;
+		background-size: 100% 100%
+	}
+	.bgendtoilet{
+		height: 1250px;
+		display: block;
+		background-size: 100% 100%
+	}
+	.text{
+		color: white;
+		font-size: 20px;
+
+	}
+	/*location1*/
+	.bgnopenplay{
+		height: 1250px;
+		display: block;
+		background-size: 100% 100%
+	}
+	.room{
+		height: 1250px;
+		display: block;
+		background-size: 100% 100%
+
+	}
+	.pon{
+			background:yellow;
+		}
+
+	.hide{
+		position: absolute;
+		
+		height: 100px;
+		width: 50px;
+	}
+	.marker{
+		width: 100px;
+		position: absolute;
+	}
+
+
+</style>
+<head>
+	<title></title>
+</head>
+<body>
+<!-- НАЧАЛО/ -->
+
+	<div class="bg-secondary col-12 bgnopen" >
+		<button class="col-1 btnopen" >
+			ИГРАТЬ
+		</button>
+	</div>
+	<!-- сцена1 -->
+	<div class="bg-warning col-12 bgnopen " style="background-image: url(scen1.png); display: none;">
+		
+		<div class="col-12" style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">Как это случилось? Как я мог до такого докатиться?</p>
+			<button class="col-1 btnopen" style="position: absolute;left: 40%; top:80%;" >
+				следущие
+			</button>
+		</div>
+	</div>
+	<!-- сцена2 -->
+	<div class="bg-warning col-12 bgnopen" style="background-image: url(scen2.png); display: none;">
+		
+		<div class="col-12" style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">
+				Эх... Жизнь так скоротечна, я не успел ничего сделать путного.
+			</p>
+			<button class="col-1 btnopen" style="position: absolute;left: 40%; top:80%;" >
+				следущее
+			</button>
+		</div>
+	</div>
+	<!-- сцена3 -->
+	<div class="bg-warning col-12 bgnopen "style="background-image: url(scen3.png); display: none;">
+		
+		<div class="col-12" style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">Хотя какой смысл был стараться если я все равно буду зарыт под пластом земли?</p>	
+			<button class="col-1 btnopen" style="position: absolute;left: 40%; top:80%;" >
+				следущее
+			</button>
+		</div>	
+	</div>
+	<!-- сцена4 -->
+	<div class="bg-warning col-12 bgnopen"style="background-image: url(scen4.png); display: none;">
+		
+		<div class="col-12" style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">может быть это не так? если бы я мог, что-то сделать, вернуться в прошлое.
+			Стать кем я всегда хотел быть. Если бы у меня был еще один шанс</p>
+			<button class="col-1 btnopen" style="position: absolute;left: 40%; top:80%;" >
+				следущее
+			</button>
+		</div>	
+	</div>
+	<!-- затемнеие -->
+	<div class="col-12 bgnopen"style="background:black; display: none;">
+		
+		<div class="col-12" style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">Всего один шанс...</p>
+			<button class="col-1 btnopen" style="position: absolute;left: 40%; top:80%;" >
+				следущее
+			</button>
+		</div>	
+	</div>
+		<!-- сцена5 -->
+	<div class="bg-warning col-12 bgnopen"style="background-image: url(scen5.png); display: none;">
+		
+		<div class="col-12" style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">Стоп что это?</p>
+			<button class="col-1 btnopen" style="position: absolute;left: 40%; top:80%;" >
+				следущее
+			</button>
+		</div>
+	</div>
+	<!-- сцена6 -->
+	<div class="bg-warning col-12 bgnopen"style="background-image: url(scen6.png); display: none;">
+		
+		<div class="col-12" style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">......</p>
+			<button class="col-1 btnopen" style="position: absolute;left: 40%; top:80%;" >
+				следущее
+			</button>
+		</div>
+	</div>
+
+	<!-- сцена 7-->
+	<div class="bg-warning col-12 bgnopen"style="background-image: url(room.jpg); display: none;">
+		
+		<div class="col-12" style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">Где я? как я здесь оказался</p>
+			<button class="col-1 btnopen" style="position: absolute;left: 40%; top:80%;" >
+				следущее
+			</button>
+		</div>
+	</div>
+
+	<!-- сцена 8-->
+	<div class="bg-warning col-12 bgnopen"style="background-image: url(room.jpg); display: none;">
+		
+		<div class="col-12" style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">Это моя комната? Но как я мог здесь оказаться? минуту назад я видел яркий свет, и какго-то странного мужика с бородой.</p>
+			<button class="col-1 btnopen" style="position: absolute;left: 40%; top:80%;" >
+				следущее
+			</button>
+		</div>
+	</div>
+	<!-- сцена 9-->
+	<div class="bg-warning col-12 bgnopen"style="background-image: url(room.jpg); display: none;">
+		
+		<div class="col-12" style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">О боже! Что стало с моим телом? Я как-будто помолодел. Пропала моя борода и сам я стал ниже.</p>
+			<button class="col-1 btnopen" style="position: absolute;left: 40%; top:80%;" >
+				следущее
+			</button>
+		</div>
+	</div>
+	<!-- сцена 10-->
+	<div class="bg-warning col-12 bgnopen"style="background-image: url(room.jpg); display: none;">
+		
+		<div class="col-12" style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">В комнату вошла мама и сказала, что если я опять опаздаю в школу, то она отправит меня в детдом</p>
+			<button class="col-1 btnopen" style="position: absolute;left: 40%; top:80%;" >
+				следущее
+			</button>
+		</div>
+	</div>
+	<!-- сцена 11-->
+	<div class="bg-warning col-12 bgnopen"style="background-image: url(room.jpg); display: none;">
+		
+		<div class="col-12" style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">Это стало еще страшнее, может я попал в ад? или же этовсе сон? или перед смертью мой позг решил показать мне воспаминания? Но кто же тот мужик с бородой?</p>
+			<button class="col-1 btnopen" style="position: absolute;left: 40%; top:80%;" >
+				следущее
+			</button>
+		</div>
+	</div>
+	<!-- сцена 12-->
+	<div class="bg-warning col-12 bgnopen "style="background-image: url(room.jpg); display: none;">
+		
+		<div class="col-12 " style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">так много вопросов и так мало ответов. В любом случае, даже если это все сон, то я бы не хотел в этом сне отправиться в детдом. Что там у нас по учебникам?</p>
+			<button class="col-1 btnopen" style="position: absolute;left: 40%; top:80%;" >
+				следущее
+			</button>
+		</div>
+	</div>
+
+<!-- location1 -->
+	<div class="bg-warning col-12 bgnopen jopa "style="background-image: url(room.jpg); display: none">
+		<div class="open">
+			<div class="col-12 mesf" style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+				<p class="text">
+				</p>
+				<button class="col-1 btnopenfirst" style="position: absolute;left: 40%; top:80%;" >
+				начать
+				</button>
+			</div>
+			<h4 style="color: white; ">Время: <span class="loc1_time" style="color: white;"></span></h4>
+			<h4 style="color: white;" >Счёт: <span class="loc1_score" style="color: white;"></span></h4>
+			<div class="hide" style="top: 70%; left: 70%; " >
+				<img src="book1.png" style="height: 100px; width: 50px">
+			</div>
+			<div class="hide" style="top: 45%; left: 45%; " >
+				<img src="book2.png" style="height: 100px; width: 50px">
+			</div>
+			<div class="hide" style="top: 80%; left: 30%; " >
+				<img src="book3.png" style="height: 100px; width: 50px">
+			</div>
+			<div class="hide" style="top: 30%; left: 90%; " >
+				<img src="book4.png" style="height: 100px; width: 50px">
+			</div>
+			<div class="hide" style="top: 90%; left: 20%; " >
+				<img src="book5.png" style="height: 100px; width: 50px">
+			</div>
+		</div>
+	</div>
+	<!-- school -->
+	<div class="bg-warning col-12 bg "style="background-image: url(school.png); display: none;">
+		
+		<div class="col-12 " style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">Вот и моя старая школа. Никогда бы не подумал, что буду так рад снова ее увидеть</p>
+			<button class="col-1 btn text" style="position: absolute;left: 40%; top:80%; " >
+				следущее
+			</button>
+		</div>
+	</div>
+	<!-- holl -->
+
+	<div class="bg-warning col-12 bg "style="background-image: url(holl.jpg); display: none;">
+		
+		<div class="col-12 " style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">эй парень мигом на урок, а то я позову старосту. Какой у тебя урок? Я прослежу, чтобы ты не сбежал.</p>
+			<button class="col-1 btn text" style="position: absolute;left: 40%; top:80%; " >
+				следущее
+			</button>
+		</div>
+	</div>
+<div class="bgplay">	<!-- holl2 -->
+<div class="bgholl">
+	<div class="bg-warning col-12 bg "style="background-image: url(holl.jpg); display: none;">
+		<div>
+			<h1>сила:<span class="powertxt"></span></h1>
+			<h1>харизма:<span class="charismtxt"></span></h1>
+			<h1>интеллект:<span class="intelecttxt"></span></h1>
+		</div>
+		<div class="mx-auto col-5  rounded-lg" style="position: absolute; top: 35%; left: 30%;">
+      		<div class="col-12 box1 mx-auto pb-5" style="display: block;">
+       	 		<button class="bg-secondary col-12 mx-auto mt-3 ml-5 ans mx-auto text-white font-weight-bold font-italic rounded-pill border-0 sport" style="height:100px; font-size:20px">
+          			спортзал
+        		</button>
+        		<button class="bg-secondary col-12 mx-auto mt-3 ml-5 ans text-white font-weight-bold font-italic rounded-pill border-0 toilet " style="height:100px; font-size:20px">
+          			в туталет
+        		</button>
+        		<button class="bg-secondary col-12 mx-auto mt-3 ml-5 ans text-white font-weight-bold font-italic rounded-pill border-0 classroom" style="height:100px; font-size:20px">
+          		класс
+        		</button>
+        		
+      		</div>
+		</div>
+	</div>
+</div>
+	<div class="bg-warning col-12 bgsport "style="background-image: url(sport.jpg); display: none;">
+		<h1>попаданий:<span class="smert"> </span></h1>
+		<title></title>
+
+
+		<div class="zd" style="background: red; height: 70px; ">сытость</div>
+		<div class="vr" style="background: orange; height: 70px;  ">время</div>
+	</div>	
+</div>	
+	<div class="bg-dark col-12 bgendsport "style="background-image: url(scen4.png); display: none;">
+		
+		<div class="col-12 " style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">В скором времени я бы стал спортсменом... Но это всего лишь мечты. как жаль, что это было все невзаправду, но я готов к смерти, хотя бы умру счастливым. Похороните меня в контрабассе</p>
+			
+		</div>
+	</div>
+<div class="bgendclass2">
+	<div class="bg-dark col-12 bgclass "style="background-image: url(class.jpg); display: none;">
+		<div class="mx-auto col-5 pt-3 pb-3 rounded-lg" style="">
+		<div class="col-12 box1 mx-auto pb-5" style="display: block;">
+        	<h1 class="text-white">чему  равен дискриминант?</h1>
+        	<div class="mx-auto">
+      			<img src="mat.jpg" class="" style="height:400px">
+      		</div>
+        	<button class="bg-secondary col-12 mx-auto mt-3 ml-5 ans mx-auto text-white font-weight-bold font-italic rounded-pill border-0 ansc" style="height:50px; font-size:14px">
+         	D=b^2-4ac
+       		</button>
+        	<button class="bg-secondary col-12 mx-auto mt-3 ml-5 ans text-white font-weight-bold font-italic rounded-pill border-0 ans1" style="height:50px; font-size:14px">
+         	D=4ac-b^2
+        	</button>
+        	<button class="bg-secondary col-12 mx-auto mt-3 ml-5 ans text-white font-weight-bold font-italic rounded-pill border-0 ans2" style="height:50px; font-size:14px">
+          	D=b^2+4ac
+        	</button>
+        	<button class="bg-secondary col-12 mx-auto mt-3 ml-5 ans text-white font-weight-bold font-italic rounded-pill border-0 ans3" style="height:50px; font-size:14px">
+         	D=b^2*4ac
+        	</button>
+    	</div> 
+		</div>
+	</div>
+</div>
+	<div class="bg-dark col-12 bgendclass "style="background-image: url(scen4.png); display: none;">
+		
+		<div class="col-12 " style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">В скором времени я бы стал ученным... Но это всего лишь мечты. как жаль, что это было все невзаправду, но я готов к смерти, хотя бы умру счастливым. Похороните меня в контрабассе</p>
+			
+		</div>
+	</div>
+	<div class="bg-dark col-12 bgtoilet "style="background-image: url(toilet.jpg); display: none;">
+		<div class="boxer" style="position: absolute; width: 200px; height: 100px;; top:65%; left: 5%;"></div>
+		<div class="col-12 " style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">здесь ничего интересного</p>
+			<button class="col-1 back text" style="position: absolute;left: 40%; top:80%; " >
+				назад
+			</button>
+		</div>
+	</div>
+	<div class="bg-dark col-12 bgendtoilet "style="background-image: url(hos.jpg); display: none;">
+		
+		<div class="col-12 " style="background: black; opacity: 70%; height: 230px; position: absolute; top: 80%; ">
+			<p class="text">Я почувствал воду у себя на лице, это оказались медики, они откачали меня, и привели в чувство, значит это все была галюцинация... Значит мне дали второй шанс, в этот раз я его не просру</p>
+			
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript">
+	//forlet
+	let btnopen=document.querySelectorAll(".btnopen")
+	let bgnopen=document.querySelectorAll(".bgnopen")
+	let btn=document.querySelectorAll(".btn")
+	let jopa=document.querySelector(".jopa")
+	let bgplay=document.querySelector(".bgplay")
+	let bg=document.querySelectorAll(".bg")
+	let scens=document.querySelector(".scens")
+	//location1
+	let room=document.querySelector(".room")
+	let mesf=document.querySelector(".mesf")
+	let btnopenfirst=document.querySelector(".btnopenfirst")
+	let hide=document.querySelectorAll(".hide")
+	let timetxt=document.querySelector(".loc1_time")
+	let scoretxt=document.querySelector(".loc1_score")
+	let x=0;
+	let time=10
+	let score=0
+	let open=document.querySelector(".open")
+	//location2
+	let sport=document.querySelector(".sport")
+	let bgholl=document.querySelector(".bgholl")
+	let bgsport=document.querySelector(".bgsport")
+	let bgend=document.querySelector(".bgendsport")
+
+	//location3
+	let classroom=document.querySelector(".classroom")
+	let bgclass=document.querySelector(".bgclass")
+	let ansc=document.querySelector(".ansc")
+	let ans1=document.querySelector(".ans1")
+	let ans2=document.querySelector(".ans2")
+	let ans3=document.querySelector(".ans3")
+	let bgendclass=document.querySelector(".bgendclass")
+	let bgendclass2=document.querySelector(".bgendclass2")
+	//location4
+	let toilet=document.querySelector(".toilet")
+	let bgtoilet=document.querySelector(".bgtoilet")
+	let bgendtoilet=document.querySelector(".bgendtoilet")
+	let back=document.querySelector(".back")
+	let boxer=document.querySelector(".boxer")
+	// holl1
+	let power=0
+	let charism=0
+	let intelect=0
+	let powertxt=document.querySelector(".powertxt")
+	let charismtxt=document.querySelector(".charismtxt")
+	let intelecttxt=document.querySelector(".intelecttxt")
+	powertxt.innerHTML=power
+	charismtxt.innerHTML=charism
+	intelecttxt.innerHTML=intelect
+	//endlet
+
+	//open
+	for (let i = 0; i <14; i=i+1 ) {
+		btnopen[i].onclick=function () {
+			let y=0;
+			x=x+1
+			
+			bgnopen[i].style.display="none"
+			y=i+1
+			bgnopen[y].style.display="block"
+			
+
+		}
+	}
+	//location1
+	btnopenfirst.onclick=function (argument) {
+		
+		mesf.style.display="none"
+		alert("тебе надо успеть собрать учебники за 10 секунд")
+		scoretxt.innerHTML=score
+		timetxt.innerHTML=time
+
+			let vrem=function(){
+				time=time-1
+				timetxt.innerHTML=time
+					if (time==0) {
+						alert("nы проиграл проиди заново")
+							for (let i = 0; i < 5; i=i+1 ) {
+								hide[i].style.display="block"
+							}
+							time=10
+							score=0
+							timetxt.innerHTML=time
+							scoretxt.innerHTML=score
+					}
+			}
+			let stop=setInterval(vrem, 1000)
+		for (let i = 0; i < 5; i=i+1 ) {
+			hide[i].style.display="block"
+			hide[i].onclick=function (argument) {
+				score=score+1
+				scoretxt.innerHTML=score
+				hide[i].style.display="none"
+				if (score==5) {
+					clearInterval(stop)
+					
+					jopa.style.display="none"
+					bg[0].style.display="block"
+					
+				}
+			}
+		}
+	}			
+	
+		for (let i = 0; i <2; i=i+1 ) {
+			btn[i].onclick=function () {
+				let y=0;
+				x=x+1
+				bg[i].style.display="none"
+				y=i+1
+				bg[y].style.display="block"
+			
+
+			}
+		}
+
+	sport.onclick=function (argument) {
+		let hp=document.querySelector(".hp")
+		let smert=document.querySelector(".smert")
+		let b=document.querySelector(".b")
+		let zd=document.querySelector(".zd")
+		let vr=document.querySelector(".vr")
+		let smertt=0
+		let n=0
+		let vrr=100
+		let zdd=0
+		let u=0
+		vr.style.width=vrr+"%"
+		zd.style.width=zdd+"%"
+		smert.innerHTML=smertt;
+
+		bgholl.style.display="none"
+		bgsport.style.display="block"
+		let minus = function(){
+		vrr=vrr-10
+		vr.style.width=vrr+"%"
+		let smertt=0
+	
+		
+	}
+	let plus = function(){
+		zdd=zdd+10
+		zd.style.width=zdd+"%"
+		
+	}
+	let c= function (argument) {
+		u=u+1
+		let getRandom=function(){
+			
+			let rand=Math.random()*1100;
+			let round=Math.round(rand);
+			return round;
+		}
+		let d = document.createElement("img")
+		document.body.appendChild(d)
+		d.src="k.png"
+		d.classList.add("marker")
+		
+			
+		d.style.left=getRandom()+"px"
+		d.style.top=getRandom()+"px"
+
+		
+		d.onclick=function (argument) {
+			d.style.display="none"
+			smertt=smertt+1
+			smert.innerHTML=smertt;
+			plus()
+		}
+
+		
+	}
+
+	let del=function(){
+		let marker=document.querySelectorAll(".marker")
+			marker[n].style.display="none"
+			n=n+1
+		}
+	let stopm=setInterval(c, 500)
+	let stopd=setInterval(del, 1000)
+	u=u-n;
+	u=u-smertt
+	
+	let check = function(){
+		if (smertt==13 || smertt>13) {
+			let marker=document.querySelectorAll(".marker")
+			for (let i = 0; i <u ; i=i+1) {
+				marker[i].style.display="none"
+			}
+			clearInterval(stopm)
+			clearInterval(stopd)
+			bgsport.style.display="none"
+			bgholl.style.display="block"
+			power=power+1
+			powertxt.innerHTML=power
+			if (power==5) {
+				bgend.style.display="block"
+				bgholl.style.display="none"
+				bgsport.style.display="none"
+
+			}
+			alert("ты выиграл")
+		}
+		if (smertt<13) {
+			let marker=document.querySelectorAll(".marker")
+			for (let l = 0; l <u ; l=l+1) {
+				marker[l].style.display="none"
+			}
+			clearInterval(stopm)
+			clearInterval(stopd)
+			bgsport.style.display="none"
+			bgholl.style.display="block"
+			alert("ты проиграл")
+		}
+	}
+
+	
+	setInterval(minus, 1000)
+	setTimeout(check, 10000)
+	}
+	classroom.onclick=function (argument) {
+		bgholl.style.display="none"
+		bgclass.style.display="block"
+		ansc.onclick=function (argument) {
+			intelect=intelect+1
+			intelecttxt.innerHTML=intelect
+			if (intelect==2) {
+				bgendclass.style.display="block"
+				bgendclass2.style.display="none"
+			}
+			alert("правильно")
+			bgholl.style.display="block"
+			bgclass.style.display="none"
+			
+		}
+		
+		ans1.onclick=function (argument) {
+			alert("неправильно")
+			intelect=intelect+1
+			intelecttxt.innerHTML=intelect
+			if (intelect==3 ) {
+				bgendclass.style.display="block"
+				bgendclass2.style.display="none"
+			}
+			bgholl.style.display="block"
+			bgclass.style.display="none"
+		}
+		ans2.onclick=function (argument) {
+			alert("неправильно")
+			intelect=intelect+1
+			intelecttxt.innerHTML=intelect
+			if (intelect==3) {
+				bgendclass.style.display="block"
+				bgendclass2.style.display="none"
+			}
+			bgholl.style.display="block"
+			bgclass.style.display="none"
+		}
+		ans3.onclick=function (argument) {
+			alert("неправильно")
+			intelect=intelect+1
+			intelecttxt.innerHTML=intelect
+			if (intelect==3 ) {
+				bgendclass.style.display="block"
+				bgendclass2.style.display="none"
+			}
+			bgholl.style.display="block"
+			bgclass.style.display="none"
+		}		
+		
+
+	}
+	toilet.onclick=function (argument) {
+		bgholl.style.display="none"
+		bgtoilet.style.display="block"
+		back.onclick=function (argument) {
+			bgholl.style.display="block"
+			bgtoilet.style.display="none"
+
+		}
+		boxer.onclick=function (argument) {
+			bgtoilet.style.display="none"
+			bgendtoilet.style.display="block"
+		}
+	}
+
+	
+</script>
+</html>
